@@ -1,0 +1,198 @@
+#main {
+    max-width: 1206px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuList {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuItem {
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--color-text);
+}
+
+.menuAction {
+    border-radius: 99px;
+    border: 1px solid var(--color-accent);
+    border-radius: 50px;
+    width: 85px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 38px;
+    background: url("../../public/cover.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-bg);
+    height: 587px;
+    padding: 39px;
+    margin: 39px 0 47px 0;
+}
+
+.headerTitle {
+    font-weight: 800;
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+.headerCaption {
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    padding-left: 9px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid var(--color-bg);
+}
+
+.headerAction {
+    border: 2px solid var(--color-bg);
+    border-radius: 50px;
+    width: 432px;
+    height: 64px;
+    background: var(--color-accent);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.who {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-bottom: 80px;
+}
+
+.who-cards {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.who-card {
+    width: 100%;
+    height: 103px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--color-primary);
+    border-radius: 15px;
+    background: var(--color-overlay);
+    text-wrap: nowrap;
+    gap: 16px;
+}
+
+.who-card img {
+    flex-shrink: 0;
+}
+
+.who-card-2 {
+    width: 240px;
+}
+
+.who-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 54px;
+}
+
+.who-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.who-indicators {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 34px;
+}
+
+.who-indicator {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.who-indicator span {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.what-title {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.what-card-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.what-cards {
+    
+}

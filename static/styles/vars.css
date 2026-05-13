@@ -1,0 +1,17 @@
+:root {
+    --font-base: 'Montserrat', sans-serif;
+    --font: normal 16px var(--font-base);
+}
+
+:root {
+    --transition-linear: all 0.1s ease-in-out;
+}
+
+:root {
+    --color-bg: #ffffff;
+    --color-text: #2B2A29;
+    --color-accent: #F2C62C;
+    --color-overlay: #F2F2F2;
+    --color-success: #8AB446;
+    --color-primary: #38569F;
+}
