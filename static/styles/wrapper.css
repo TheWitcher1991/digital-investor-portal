@@ -697,6 +697,7 @@ input:hover {
     font-weight: 600;
     font-size: 18px;
     cursor: pointer;
+    color: var(--color-text);
 }
 
 @media (hover: hover) {
