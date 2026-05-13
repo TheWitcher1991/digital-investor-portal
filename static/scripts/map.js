@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   ];
 
-  const map = L.map('map').setView([45.9088, 43.3547], 10);
+  const map = L.map('map-container').setView([45.9088, 43.3547], 10);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap'
