@@ -77,6 +77,8 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -94,112 +96,264 @@
   <div class="gs">
     <div class="content">
       <main id="main">
-        <nav class="menu">
-          <div class="menuLogo">
-            <img src="./public/logo.png" width="153" height="116" alt="логотип" />
-          </div>
-          <div class="menuList">
-            <a class="menuItem">О проекте</a>
-            <a class="menuItem">Инвестиционные проекты</a>
-            <a class="menuItem">ИИ-подбор мер</a>
-            <a class="menuItem">СВОи люди</a>
-            <a class="menuItem">Карта бизнеса</a>
-            <img src="./public/search.svg" width="23" height="23" alt="" />
-            <a class="menuAction">Вход</a>
-          </div>
-        </nav>
+        <div class="section">
+          <nav class="menu">
+            <div class="menuLogo">
+              <img src="./public/logo.png" width="153" height="116" alt="логотип" />
+            </div>
+            <div class="menuList">
+              <a class="menuItem">О проекте</a>
+              <a class="menuItem">Инвестиционные проекты</a>
+              <a class="menuItem">ИИ-подбор мер</a>
+              <a class="menuItem">СВОи люди</a>
+              <a class="menuItem">Карта бизнеса</a>
+              <img src="./public/search.svg" width="23" height="23" alt="" />
+              <a class="menuAction">Вход</a>
+            </div>
+          </nav>
+        </div>
 
-        <header class="header">
-          <h1 class="headerTitle">Цифровой портал инвестора
-            Апанасенковского округа</h1>
-          <p class="headerCaption">От идеи до бизнеса</p>
-          <a class="headerAction">Подобрать меру поддержки</a>
-        </header>
+        <div class="section">
+          <header class="header">
+            <h1 class="headerTitle">Цифровой портал инвестора
+              Апанасенковского округа</h1>
+            <p class="headerCaption">От идеи до бизнеса</p>
+            <a class="headerAction">Подобрать меру поддержки</a>
+          </header>
+        </div>
 
-        <section class="who">
-          <div class="who-header">
-            <div class="who-text">
-              <h2 class="section-title">Кому помогает портал?</h2>
+        <div class="section">
+          <section class="who">
+            <div class="who-header">
+              <div class="who-text">
+                <h2 class="section-title">Кому помогает портал?</h2>
+                <p class="section-text">
+                  Цифровой портал помогает трём главным группам.
+                  Во-первых, бизнесу — инвесторы получают ответ за 2 часа вместо 5 дней. Во-вторых, демобилизованным
+                  участникам СВО — 124 человека, из них 67 хотят открыть дело. В-третьих, местным жителям и молодёжи —
+                  более 500 обращений за год. Платформа «СВОи люди» даёт наставников и приоритетное оформление ИП.
+                </p>
+              </div>
+              <div class="who-indicators">
+                <div class="who-indicator">
+                  10+
+                  <span>проектов</span>
+                </div>
+                <div class="who-indicator">
+                  10+
+                  <span>проектов</span>
+                </div>
+                <div class="who-indicator">
+                  100+
+                  <span>проектов</span>
+                </div>
+                <div class="who-indicator">
+                  10%
+                  <span>проектов</span>
+                </div>
+              </div>
+            </div>
+            <div class="who-cards">
+              <div class="who-card">
+                Демобилизованные
+                <img src="./public/star.svg" width="48" height="73" />
+              </div>
+              <div class="who-card who-card-2">
+                Бизнес
+                <img src="./public/chart.svg" width="67" height="67" />
+              </div>
+              <div class="who-card">
+                Сельские инициативы
+                <img src="./public/users.svg" width="85" height="89" />
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="section">
+          <section class="what">
+            <div class="what-title">
+              <h2 class="section-title">Как работает портал?</h2>
               <p class="section-text">
-                Цифровой портал помогает трём главным группам.
-                Во-первых, бизнесу — инвесторы получают ответ за 2 часа вместо 5 дней. Во-вторых, демобилизованным
-                участникам СВО — 124 человека, из них 67 хотят открыть дело. В-третьих, местным жителям и молодёжи —
-                более 500 обращений за год. Платформа «СВОи люди» даёт наставников и приоритетное оформление ИП.
+                Бот отвечает 24/7, система подбирает меры, человек подключается только в сложных случаях.
               </p>
             </div>
-            <div class="who-indicators">
-              <div class="who-indicator">
-                10+
-                <span>проектов</span>
-              </div>
-              <div class="who-indicator">
-                10+
-                <span>проектов</span>
-              </div>
-              <div class="who-indicator">
-                100+
-                <span>проектов</span>
-              </div>
-              <div class="who-indicator">
-                10%
-                <span>проектов</span>
+            <div class="what-card-wrapper">
+              <img src="./public/tepl.png" width="601" height="364" alt="" />
+              <div class="what-cards">
+                <div class="what-card">
+                  <span class="what-indi">01</span>
+                  <div class="what-text">
+                    <div class="what-title">Выбор сферы</div>
+                    <div class="what-caption">Указать отрасль: АПК, торговля, услуги</div>
+                  </div>
+                </div>
+                <div class="what-card">
+                  <span class="what-indi">02</span>
+                  <div class="what-text">
+                    <div class="what-title">ИИ-подбор мер</div>
+                    <div class="what-caption">Автоподбор всего: решения, льготы</div>
+                  </div>
+                </div>
+                <div class="what-card">
+                  <span class="what-indi">03</span>
+                  <div class="what-text">
+                    <div class="what-title">Онлайн-заявка</div>
+                    <div class="what-caption">Быстрое решение ваших вопросов</div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="who-cards">
-            <div class="who-card">
-              Демобилизованные
-              <img src="./public/star.svg" width="48" height="73" />
-            </div>
-            <div class="who-card who-card-2">
-              Бизнес
-              <img src="./public/chart.svg" width="67" height="67" />
-            </div>
-            <div class="who-card">
-              Сельские инициативы
-              <img src="./public/users.svg" width="85" height="89" />
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
 
-        <section class="what">
-          <div class="what-title">
-            <h2 class="section-title">Как работает портал?</h2>
-            <p class="section-text">
-              Бот отвечает 24/7, система подбирает меры, человек подключается только в сложных случаях.
-            </p>
-          </div>
-          <div class="what-card-wrapper">
-            <img src="./public/tepl.png" width="601" height="364" alt="" />
-            <div class="what-cards">
-              <div class="what-card">
-                <span class="what-indi">1</span>
-                <div class="what-text">
-                  <div class="what-title">Выбор сферы</div>
-                  <div class="what-caption">Указать отрасль: АПК, торговля, услуги</div>
+        <div class="section">
+          <section class="projects">
+            <h2 class="section-title">Инвестиционные проекты</h2>
+            <div class="section-arrow">Все проекты <img src="./public/arrow.svg" /></div>
+            <div class="projects-card">
+              <div class="project-card">
+                <img src="./public/slide-1.png" height="350" />
+                <div class="project-card-content">
+                  <div class="project-card-content-title">Строительство тепличного комплекса</div>
+                  <span class="project-card-content-text">Строительство тепличного комплекса ООО «Солнечный дар» по
+                    производству овощных культур», проектная
+                    мощность 75,7 тыс. тонн овощной продукции закрытого грунта в год.</span>
+                  <div class="project-card-content-address">
+                    Село Дербетовка, посёлок Вишневый
+                  </div>
                 </div>
               </div>
-              <div class="what-card">
-                <span class="what-indi">2</span>
-                <div class="what-text">
-                  <div class="what-title">ИИ-подбор мер</div>
-                  <div class="what-caption">Автоподбор всего: решения, льготы</div>
+
+              <div class="project-card">
+                <img src="./public/slide-2.png" height="350" />
+                <div class="project-card-content">
+                  <div class="project-card-content-title">Строительство тепличного комплекса</div>
+                  <span class="project-card-content-text">Строительство тепличного комплекса ООО «Солнечный дар» по
+                    производству овощных культур», проектная
+                    мощность 75,7 тыс. тонн овощной продукции закрытого грунта в год.</span>
+                  <div class="project-card-content-address">
+                    Село Дербетовка, посёлок Вишневый
+                  </div>
                 </div>
               </div>
-              <div class="what-card">
-                <span class="what-indi">3</span>
-                <div class="what-text">
-                  <div class="what-title">Онлайн-заявка</div>
-                  <div class="what-caption">Быстрое решение ваших вопросов</div>
+
+              <div class="project-card">
+                <img src="./public/slide-3.png" height="350" />
+                <div class="project-card-content">
+                  <div class="project-card-content-title">Строительство тепличного комплекса</div>
+                  <span class="project-card-content-text">Строительство тепличного комплекса ООО «Солнечный дар» по
+                    производству овощных культур», проектная
+                    мощность 75,7 тыс. тонн овощной продукции закрытого грунта в год.</span>
+                  <div class="project-card-content-address">
+                    Село Дербетовка, посёлок Вишневый
+                  </div>
                 </div>
               </div>
             </div>
+          </section>
+        </div>
+
+        <div class="ai">
+          <div class="ai-content">
+            <div class="ai-title">
+              <h2 class="section-title">ИИ-подбор мер поддержки</h2>
+              <p class="section-text">
+                Заполните короткую анкету, и алгоритм подберет для вас лучшие варианты
+              </p>
+            </div>
+            <div class="ai-filter">
+              <select>
+                <option>Ваш статус</option>
+              </select>
+
+              <input placeholder="Ваш возраст" type="text" />
+
+              <select>
+                <option>Тип бизнеса</option>
+              </select>
+
+              <button class="ai-filter-action">Подобрать меры</button>
+            </div>
+            <div class="ai-cards">
+              <div class="ai-project-card">
+                <div class="ai-project-title">Социальный контракт</div>
+                <div class="ai-project-description">Целевая выплата</div>
+                <div class="ai-project-location">до 350 000 ₽</div>
+                <div class="ai-project-action ai-project-action-ok">Высокая вероятность</div>
+              </div>
+              <div class="ai-project-card">
+                <div class="ai-project-title">Субсидия на открытие</div>
+                <div class="ai-project-description">Целевая выплата</div>
+                <div class="ai-project-location">до 350 000 ₽</div>
+                <div class="ai-project-action ai-project-action-warn">Средняя вероятность</div>
+              </div>
+              <div class="ai-project-card">
+                <div class="ai-project-title">Земля без торгов</div>
+                <div class="ai-project-description">Целевая выплата</div>
+                <div class="ai-project-location">до 350 000 ₽</div>
+                <div class="ai-project-action ai-project-action-info">Ожидается</div>
+              </div>
+            </div>
           </div>
-        </section>
+        </div>
+
+
+        <div class="section">
+          <section class="svo">
+            <div class="svo-content">
+              <div class="svo-title">СВОи люди</div>
+              <div class="svo-caption">Для демобилизованных участников СВО и членов их семей</div>
+              <div class="svo-chips">
+                <div class="svo-chip">
+                  <img src="./public/check.svg" width="46" height="23" />
+                  <div class="svo-chip-block">
+                    <div class="svo-chip-title">Приоритетная процедура</div>
+                    <div class="svo-chip-caption">открытия ИП</div>
+                  </div>
+                </div>
+                <div class="svo-chip">
+                  <img src="./public/check.svg" width="46" height="23" />
+                  <div class="svo-chip-block">
+                    <div class="svo-chip-title">Меры поддержки</div>
+                    <div class="svo-chip-caption">гранты, соцконтракт, субсидии</div>
+                  </div>
+                </div>
+                <div class="svo-chip">
+                  <img src="./public/check.svg" width="46" height="23" />
+                  <div class="svo-chip-block">
+                    <div class="svo-chip-title">Персональный наставник</div>
+                    <div class="svo-chip-caption">из числа предпринимателей</div>
+                  </div>
+                </div>
+              </div>
+              <div class="svo-card">
+                <div class="svo-card-title">Как получить?</div>
+                <div class="svo-card-caption">Упрощённая анкета и консультация онлайн или по телефону</div>
+              </div>
+              <a class="svo-action">Начать бизнес сейчас</a>
+            </div>
+            <img src="./public/svo.png" width="644" height="615" alt="SVO" />
+          </section>
+        </div>
+
+        <div class="section">
+          <section class="map">
+            <div class="section-title">Карта проектов</div>
+            <div class="map-content">
+              <div id="map"></div>
+              <div class="map-projects"></div>
+            </div>
+          </section>
+        </div>
       </main>
     </div>
   </div>
 
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+  <script src="./static/scripts/map.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
     integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="

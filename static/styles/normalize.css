@@ -12,17 +12,37 @@
     background-color: transparent;
 }
 
-tbody, td, tfoot, th, thead, tr {
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
 }
 
-aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
+aside,
+details,
+main,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
-audio, canvas, iframe, img, svg, video {
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
     vertical-align: middle;
 }
 
@@ -49,7 +69,9 @@ progress {
     vertical-align: baseline;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -apple-box-sizing: border-box;
@@ -61,7 +83,8 @@ progress {
     box-sizing: border-box;
 }
 
-ul, menu {
+ul,
+menu {
     list-style: none;
 }
 
@@ -69,7 +92,12 @@ a {
     text-decoration: none;
 }
 
-a, button, input, select, option, textarea {
+a,
+button,
+input,
+select,
+option,
+textarea {
     font-family: var(--font-base);
     outline: none;
 }
@@ -95,3 +123,8 @@ body {
     scroll-behavior: smooth;
     background: var(--color-bg);
 }
+
+.leaflet-right {
+    display: none;
+}
+
