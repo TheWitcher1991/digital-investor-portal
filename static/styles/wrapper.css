@@ -725,3 +725,41 @@ input:hover {
 .headerMobileAction {
     display: none;
 }
+
+.mobile-menu-wrap {
+    height: 100dvh;
+    width: 100%;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(28, 28, 28, 0.2);
+    z-index: 100;
+}
+
+.mobile-menu-content {
+    z-index: 1000;
+    width: 208px;
+    height: 100%;
+    position: absolute;
+    background: var(--color-bg);
+    right: 0;
+    top: 0;
+    padding: 10px;
+    gap: 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.mobile-menu-item {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--color-text)
+}

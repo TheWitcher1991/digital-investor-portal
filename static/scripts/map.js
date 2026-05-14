@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   $("a[href*='#']").on("click", function (e) {
     e.preventDefault();
 
+    $(".mobile-menu-wrap").fadeOut(200);
+
     $("html, body")
       .stop()
       .animate(
@@ -23,6 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
       );
 
     return false;
+  });
+
+  $(document).on("click", ".mobileAction", () => {
+    $(".mobile-menu-wrap").fadeToggle(200);
+  });
+
+  $(document).on("click", ".mobile-menu-close", () => {
+    $(".mobile-menu-wrap").fadeOut(200);
   });
 
   const projects = [
