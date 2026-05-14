@@ -631,6 +631,7 @@ input:hover {
     height: 55px;
     background: var(--color-accent);
     border: 2px solid var(--color-bg);
+    color: var(--color-text);
     border-radius: 99px;
     font-weight: 600;
     font-size: 22px;
