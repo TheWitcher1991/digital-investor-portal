@@ -1,0 +1,406 @@
+@media (max-width: 550px) {
+
+    .menuList,
+    .menuAction,
+    .headerAction,
+    .who-indicators,
+    .section-arrow {
+        display: none;
+    }
+
+    .who-card-3 {
+        display: flex;
+    }
+
+    .mobileAction {
+        display: block;
+    }
+
+    .menu {
+        padding: 20px 20px 26px 20px;
+        border-bottom: 2px solid #acacac;
+        justify-content: end;
+    }
+
+    .menuLogo {
+        width: 92px;
+        height: 70px;
+        object-fit: cover;
+        position: absolute;
+        left: 20px;
+        top: 0;
+    }
+
+    .menuLogo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .header-section {
+        padding: 0;
+    }
+
+    .header {
+        height: 214px;
+        margin: 22px 0 15px 0;
+        padding: 15px;
+        gap: 16px;
+    }
+
+    .headerTitle {
+        font-size: 24px;
+    }
+
+    .headerCaption {
+        font-size: 20px;
+        height: 27px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-text {
+        font-size: 14px;
+    }
+
+    .who-text {
+        gap: 10px;
+    }
+
+    .who-cards {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .who-card-1 {
+        grid-column: span 2 / span 2;
+    }
+
+    .who-card-1 img {
+        width: 27px;
+        height: 41px;
+    }
+
+    .who-card-2 {
+        grid-column-start: 3;
+    }
+
+    .who-card-2 img {
+        width: 40px;
+        height: 38px;
+    }
+
+    .who-card-3 {
+        grid-row-start: 2;
+    }
+
+    .who-card-3 img {
+        width: 27px;
+        height: 41px;
+    }
+
+    .who-card-4 {
+        grid-column: span 2 / span 2;
+        grid-row-start: 2;
+    }
+
+    .who-card-4 img {
+        width: 58px;
+        height: 60px;
+    }
+
+    .who-card {
+        padding: 0 16px;
+        font-size: 15px;
+        height: 72px;
+        flex-shrink: 0;
+        width: 100%;
+    }
+
+    .who {
+        margin-bottom: 45px;
+    }
+
+    .what-title {
+        gap: 6px;
+    }
+
+    .what {
+        gap: 21px;
+        margin-bottom: 39px;
+    }
+
+    .what-card-wrapper {
+        flex-direction: column;
+    }
+
+    .what-card-wrapper>img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .what-cards {
+        gap: 25px;
+    }
+
+    .what-card {
+        gap: 8px;
+    }
+
+    .what-indi {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .what-title {
+        font-size: 15px;
+    }
+
+    .what-caption {
+        font-size: 14px;
+    }
+
+    .projects-title {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+
+    .projects-card {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card img {
+        height: 236px;
+    }
+
+    .project-card-content {
+        padding: 12px 10px;
+    }
+
+    .project-card-content-title {
+        font-size: 15px;
+    }
+
+    .project-card-content-text {
+        font-size: 11px;
+        margin: 3px 0 35px 0;
+    }
+
+    .project-card-content-address {
+        font-size: 11px;
+    }
+
+    .projects {
+        margin-bottom: 56px;
+    }
+
+    .ai {
+        padding: 31px 25px;
+    }
+
+    .ai-title {
+        text-align: center;
+        gap: 10px;
+    }
+
+    .ai-title .section-title,
+    .ai-title .section-text {
+        text-align: center;
+    }
+
+    .ai-filter {
+        margin-top: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .select,
+    select,
+    input {
+        width: 316px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .ai-filter-action {
+        width: 261px;
+        height: 55px;
+        border-radius: 99px;
+        font-size: 16px;
+    }
+
+    .ai-cards {
+        margin-top: 45px;
+        flex-direction: column;
+        gap: 9px;
+    }
+
+    .ai-project-card,
+    .map-project-card {
+        padding: 16px 8px;
+    }
+
+    .ai-project-title,
+    .map-project-title {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+
+    .ai-project-description,
+    .map-project-description {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .ai-project-location,
+    .map-project-location {
+        margin-bottom: 17px;
+        font-size: 14px;
+    }
+
+    .ai-project-action,
+    .map-project-action {
+        font-size: 12px;
+        margin: 0;
+        height: 24px;
+        padding: 0 8px;
+    }
+
+    #ai {
+        margin-bottom: 53px;
+    }
+
+    #svo {
+        margin-bottom: 66px;
+    }
+
+    .svo {
+        flex-direction: column-reverse;
+        gap: 12px;
+        margin: 0;
+    }
+
+    .svo>img {
+        width: 100%;
+        height: 234px;
+        border-radius: 20px;
+        object-fit: cover;
+        border: 1px solid #b2b2b2;
+    }
+
+    .svo-title {
+        font-size: 28px;
+        line-height: 1.0;
+    }
+
+    .svo-caption {
+        font-size: 14px;
+        margin: 8px 0 16px 0;
+    }
+
+    .svo-chips {
+        gap: 14px;
+        margin-bottom: 15px;
+    }
+
+    .svo-chip {
+        gap: 8px;
+    }
+
+    .svo-chip img {
+        width: 21px;
+        height: 15px;
+    }
+
+    .svo-chip-title {
+        font-size: 15px;
+    }
+
+    .svo-chip-caption {
+        font-size: 14px;
+    }
+
+    .ai-project-card {
+        width: 100%;
+    }
+
+    .svo-card {
+        margin-bottom: 18px;
+        text-align: center;
+        padding: 8px 32px;
+    }
+
+    .svo-card-title {
+        font-weight: 500;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .svo-card-caption {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .svo-action {
+        font-size: 16px;
+        height: 55px;
+    }
+
+    .map-content {
+        padding: 14px;
+        gap: 9px;
+    }
+
+    #map-container {
+        height: 241px;
+    }
+
+    .map {
+        gap: 17px;
+    }
+
+    .headerMobileAction {
+        border-radius: 50px;
+        width: 100%;
+        height: 55px;
+        background: var(--color-accent);
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--color-text);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px 7px 13px 0 rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        z-index: 1;
+        margin-bottom: 48px;
+    }
+
+    .footer {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .footerMenuAction {
+        display: flex;
+    }
+}

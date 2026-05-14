@@ -98,7 +98,8 @@
   <div class="gs">
     <div class="content">
       <main id="main">
-        <div class="section">
+
+        <div class="section header-section">
           <nav class="menu">
             <div class="menuLogo">
               <img src="./public/logo.png" width="153" height="116" alt="логотип" />
@@ -112,6 +113,9 @@
               <img src="./public/search.svg" width="23" height="23" alt="" />
               <a class="menuAction">Вход</a>
             </div>
+            <div class="mobileAction">
+              <img src="./public/menu.svg" width="31" height="31" alt="меню" />
+            </div>
           </nav>
         </div>
 
@@ -120,8 +124,12 @@
             <h1 class="headerTitle wow fadeInUp">Цифровой портал инвестора
               Апанасенковского округа</h1>
             <p class="headerCaption wow fadeInUp" data-wow-delay="0.2s">От идеи до бизнеса</p>
-            <a class="headerAction wow fadeInUp" data-wow-delay="0.4s">Подобрать меру поддержки</a>
+            <a href="#ai" class="headerAction wow fadeInUp" data-wow-delay="0.4s">Подобрать меру поддержки</a>
           </header>
+        </div>
+
+        <div class="section">
+          <a href="#ai" class="headerMobileAction wow fadeInUp" data-wow-delay="0.4s">Подобрать меру поддержки</a>
         </div>
 
         <div class="section">
@@ -156,7 +164,7 @@
               </div>
             </div>
             <div class="who-cards">
-              <div class="who-card wow fadeInUp">
+              <div class="who-card who-card-1 wow fadeInUp">
                 Демобилизованные
                 <img src="./public/star.svg" width="48" height="73" />
               </div>
@@ -164,7 +172,11 @@
                 Бизнес
                 <img src="./public/chart.svg" width="67" height="67" />
               </div>
-              <div class="who-card wow fadeInUp" data-wow-delay="0.4s">
+              <div class="who-card who-card-3 wow fadeInUp" data-wow-delay="0.2s">
+                Молодежь
+                <img src="./public/user.svg" width="22" height="28" />
+              </div>
+              <div class="who-card who-card-4 wow fadeInUp" data-wow-delay="0.4s">
                 Сельские инициативы
                 <img src="./public/users.svg" width="85" height="89" />
               </div>
@@ -211,7 +223,7 @@
 
         <div id="projects" class="section">
           <section class="projects">
-            <h2 class="section-title wow fadeInUp">Инвестиционные проекты</h2>
+            <h2 class="section-title projects-title wow fadeInUp">Инвестиционные проекты</h2>
             <div class="section-arrow wow fadeInUp" data-wow-delay="0.1s">Все проекты <img src="./public/arrow.svg" />
             </div>
             <div class="projects-card">
@@ -372,7 +384,7 @@
             <div class="footer-copy">
               <div class="footer-imgs">
                 <img src="./public/vk.svg" width="45" height="45" />
-                <a class="menuAction">Вход</a>
+                <a class="menuAction footerMenuAction">Вход</a>
               </div>
               <div class="footer-text">
                 Политика конфиденциальности и обработки персональных данных
@@ -380,6 +392,36 @@
             </div>
           </section>
         </div>
+
+        <!-- <div class="section-mobile-footer">
+          <div>
+            <div class="footer-text">
+              <div class="footer-text-title">Апанасенковский <br /> муниципальный округ</div>
+              <div class="footer-text-caption">356720, Ставропольский край, Апанасенковский район, село
+                Дивное, улица
+                Советская, 17</div>
+            </div>
+
+            <div class="footer-text">
+              Политика конфиденциальности и обработки персональных данных
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-list">
+              <a class="footer-list-item" href="#about">О проекте</a>
+              <a class="footer-list-item" href="#projects">Инвестиционные проекты</a>
+              <a class="footer-list-item" href="#ai">ИИ-подбор мер</a>
+              <a class="footer-list-item" href="#svo">СВОи люди</a>
+              <a class="footer-list-item" href="#map">Карта бизнеса</a>
+            </div>
+
+            <div class="footer-imgs">
+              <img src="./public/vk.svg" width="45" height="45" />
+              <a class="menuAction">Вход</a>
+            </div>
+          </div>
+        </div> -->
       </main>
     </div>
   </div>

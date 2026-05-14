@@ -101,6 +101,7 @@
     top: 0;
     border-radius: 20px;
     left: 0;
+    backdrop-filter: blur(2px);
 }
 
 .headerTitle {
@@ -717,4 +718,10 @@ input:hover {
     font-size: 20px;
     line-height: 100%;
     color: #1e1e1e;
+}
+
+.mobileAction,
+.who-card-3,
+.headerMobileAction {
+    display: none;
 }
